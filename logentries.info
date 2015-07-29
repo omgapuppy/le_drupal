@@ -1,0 +1,5 @@
+name = Logentries
+description = "Allows watchdog messages to be sent to the logentries log management system"
+core = 7.x
+configure = admin/config/development/logging
+dependencies[] = libraries
