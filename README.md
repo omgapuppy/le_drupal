@@ -27,6 +27,10 @@ This module can be configured by going to Configuration->Development->Logging
 and errors (admin/config/development/logging) in Drupal, here you can enter
 the token provided by Logentries; whether to use SSL to send log messages and
 the minimum level of messages to send.
+
+To obtain a token, log in to your Logentries account, add a new log, select manual,
+select token tcp and copy the generated log token.
+
 If you want to use different tokens under different circumstances e.g. one for
 a development environment and a different one for a live environment, then you
 can define the tokens in your settings.php file. An example of this is given
